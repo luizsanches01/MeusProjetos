@@ -1,0 +1,39 @@
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+    
+}
+.title {
+    text-transform: uppercase;
+    
+}
+.subtitle{
+    color: var(--secundary);
+    font-weight: 400;
+}
+.block {
+    margin-bottom: 60px;
+}
+
+.button {
+    text-transform: lowercase;
+    font-weight: 500;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;   
+}
+.button-primary {
+    padding-top: 10px;
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+.button-primary:hover {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+.button-primary-outline {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+.button-primary-outline:hover {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
